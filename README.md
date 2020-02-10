@@ -6,8 +6,9 @@
 
 ## Install
 
-```
-$ npm i @webb/config-prettier -D
+```sh
+# Install this module, with Prettier
+$ npm i @webb/config-prettier prettier -D
 ```
 
 
