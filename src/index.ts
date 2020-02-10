@@ -3,7 +3,7 @@
 
 //  E X P O R T
 
-export default {
+export = {
   arrowParens: "avoid",
   bracketSpacing: true,
   endOfLine: "lf",
