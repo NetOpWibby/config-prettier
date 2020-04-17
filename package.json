@@ -7,13 +7,13 @@
   "devDependencies": {
     "chronver": "^2020.3.9",
     "del-cli": "^3.0.0",
-    "husky": "^4.2.3",
+    "husky": "^4.2.5",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.0.2",
+    "prettier": "^2.0.4",
     "typescript": "^3.8.3",
-    "updates": "^10.2.6"
+    "updates": "^10.2.7"
   },
-  "homepage": "https://code.webb.page/Webb/config-prettier",
+  "homepage": "https://github.com/NetOperatorWibby/config-prettier",
   "husky": {
     "hooks": {
       "pre-commit": "npm run build && npm run pretty && npm run increment && git add -A :/"
@@ -24,7 +24,7 @@
   "name": "@webb/config-prettier",
   "repository": {
     "type": "git",
-    "url": "https://code.webb.page/Webb/config-prettier"
+    "url": "https://github.com/NetOperatorWibby/config-prettier"
   },
   "scripts": {
     "build": "npm run cleanup && tsc",
@@ -36,5 +36,5 @@
     "test:typescript": "tsc"
   },
   "types": "dist/index.d.ts",
-  "version": "2020.03.29"
+  "version": "2020.04.16"
 }
