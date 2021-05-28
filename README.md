@@ -40,9 +40,5 @@ It's a good idea to run Prettier in a [precommit](https://prettier.io/docs/en/pr
 // all the changes for committing to git.
 //
 // Note that this example requires the installation of Husky.
-"husky": {
-  "hooks": {
-    "pre-commit": "npm run build && npm run pretty && npm run increment && git add -A :/"
-  }
-}
+"pre-commit": "npm run build && npm run pretty && npm run increment && git add -A :/"
 ```
